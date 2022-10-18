@@ -1,0 +1,30 @@
+{
+    "projectOwner": "Gruppo 6",
+    "projectName": "MyBabyMonitor",
+    "lastUpdate": "2022-07-01-10:43:32",
+    "lastChildID": 1,
+    "thingSpeak": {
+        "url": "https://api.thingspeak.com/update.json",
+        "urlChannel": "https://api.thingspeak.com/channels.json",
+        "userAPIKey": "PNZCK58R84TT8UKE"
+    },
+    "telegram": {
+        "token": "5474482131:AAGm8hVuu4VtUZWst4ODeFZaMMpVV6WKrVo"
+    },
+    "urlCatalog": "https://host.docker.internal:8080/",
+    "mosquitto": {
+        "broker": "test.mosquitto.org",
+        "port": 1883,
+        "topicApnea": "MyBabyMonitor/Apnea/",
+        "topicSeizure": "MyBabyMonitor/Seizure/",
+        "topicEvent": "MyBabyMonitor/Event/",
+        "topicAlarm": "MyBabyMonitor/Alarm/"
+    },
+    "onlineServices": [],
+    "childrenList": [
+        
+    ],
+    "devicesList": [
+        
+    ]
+}

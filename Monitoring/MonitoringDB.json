@@ -1,0 +1,71 @@
+{
+    "lastUpdate":"",
+    "urlCatalog": "http://host.docker.internal:8080/",
+    "urlMonitoring":"http://0.0.0.0:8090/",
+    "port":8090,
+    "devices": [
+        {
+            "deviceID": 1,
+            "events": {
+                "apnea": [
+                    {
+                        "time": "2022-05-30-11:37:54",
+                        "duration": 11
+                    },
+                    {
+                        "time": "2022-05-30-11:38:29",
+                        "duration": 13
+                    },
+                    {
+                        "time": "2022-05-30-11:39:33",
+                        "duration": 11
+                    }
+                ],
+                "seizure": [
+                    {
+                        "time": "2022-05-27-18:45:36",
+                        "duration": 12
+                    },
+                    {
+                        "time": "2022-05-30-11:37:56",
+                        "duration": 12
+                    },
+                    {
+                        "time": "2022-05-30-11:38:51",
+                        "duration": 7
+                    }
+                ]
+            }
+        },
+        {
+            "deviceID": 6,
+            "events": {
+                "apnea": [
+                    {
+                        "time": "2022-05-30-11:42:29",
+                        "duration": 11
+                    },
+                    {
+                        "time": "2022-05-30-11:43:3",
+                        "duration": 13
+                    },
+                    {
+                        "time": "2022-05-27-18:45:36",
+                        "duration": 12
+                    },
+                    {
+                        "time": "2022-05-30-11:37:56",
+                        "duration": 12
+                    },
+                    {
+                        "time": "2022-05-30-11:38:51",
+                        "duration": 7
+                    }
+                ],
+                "seizure": [
+                    
+                ]
+            }
+        }
+    ]
+}

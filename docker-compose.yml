@@ -1,0 +1,60 @@
+# version: '3.8'
+services:
+  catalog:
+    build: ./catalog
+    image: catalog
+    expose:
+    - '8080'
+    ports:
+    - 8080:8080 
+
+  apnea:
+    build: ./apnea
+    image: apnea
+    expose:
+    - '8082'
+    ports:
+    - 8082:8082
+    depends_on:
+    - catalog
+    links:
+    - catalog
+
+  seizure:
+     build: ./seizure
+     image: seizure
+     expose:
+     - '8088'
+     ports:
+     - 8088:8088
+     depends_on:
+     - catalog
+
+  monitoring:
+     build: ./monitoring
+     image: monitoring
+     expose:
+     - '8090'
+     - '5000'
+     ports:
+     - 8090:8090
+     - 5000:5000
+     depends_on:
+     - catalog
+
+  bot:
+     build: ./bot
+     image: bot
+     depends_on:
+     - catalog
+
+  raspberry:
+     build: ./raspberry
+     image: raspberry
+     depends_on:
+     - catalog
+     ports:
+     - 1883:1883
+
+  
+  

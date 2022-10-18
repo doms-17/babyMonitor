@@ -1,0 +1,4 @@
+{
+    "deviceID":10,
+    "urlCatalog" : "http://host.docker.internal:8080/"
+}

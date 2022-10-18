@@ -1,0 +1,126 @@
+{
+    "deviceID": "",
+    "childID": "",
+    "sensorsList": [
+        {
+            "sensorID": "",
+            "sensorName": "Microphone",
+            "measureType": [
+                "Sound"
+            ],
+            "availableServices": [
+                "MQTT"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "serviceIP": "mqtt.eclipse.org",
+                    "topic": [
+                        "MyBabyMonitor/apnea/sound"
+                    ]
+                }
+            ],
+            "lastUpdate": ""
+        },
+        {
+            "sensorID": "",
+            "sensorName": "Oximeter",
+            "measureType": [
+                "Blood Oxygen Level"
+            ],
+            "availableServices": [
+                "MQTT"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "serviceIP": "mqtt.eclipse.org",
+                    "topic": [
+                        "MyBabyMonitor/apnea/oxygen"
+                    ]
+                }
+            ],
+            "lastUpdate": "2021-10-25-19:32:49"
+        },
+        {
+            "sensorID": "",
+            "sensorName": "Accelerometer",
+            "measureType": [
+                "Acceleration"
+            ],
+            "availableServices": [
+                "MQTT"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "serviceIP": "mqtt.eclipse.org",
+                    "topic": [
+                        "MyBabyMonitor/seizure/acceleration"
+                    ]
+                }
+            ],
+            "lastUpdate": "2021-10-25-19:32:49"
+        },
+        {
+            "sensorID": "",
+            "sensorName": "Heartrate Sensor",
+            "measureType": [
+                "Heartrate"
+            ],
+            "availableServices": [
+                "MQTT"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "serviceIP": "mqtt.eclipse.org",
+                    "topic": [
+                        "MyBabyMonitor/seizure/heartrate"
+                    ]
+                }
+            ],
+            "lastUpdate": "2021-10-25-19:32:49"
+        },
+        {
+            "sensorID": "",
+            "sensorName": "Temperature",
+            "measureType": [
+                "Temperature"
+            ],
+            "availableServices": [
+                "MQTT"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "serviceIP": "mqtt.eclipse.org",
+                    "topic": [
+                        "MyBabyMonitor/room/temperature"
+                    ]
+                }
+            ],
+            "lastUpdate": "2021-10-25-19:32:49"
+        },
+        {
+            "sensorID": "",
+            "sensorName": "Humidity",
+            "measureType": [
+                "Humidity"
+            ],
+            "availableServices": [
+                "MQTT"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "serviceIP": "mqtt.eclipse.org",
+                    "topic": [
+                        "MyBabyMonitor/room/humidity"
+                    ]
+                }
+            ],
+            "lastUpdate": "2021-10-25-19:32:49"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "lastUpdate":"",
+    "urlCatalog": "http://host.docker.internal:8080/",
+    "urlSeizure": "http://0.0.0.0:8088/",
+    "port": 8088,
+    "devices": [
+        {
+            "deviceID": 1,
+            "events": [
+                {
+                    "time": "2022-05-27-17:10:5",
+                    "duration": 12
+                },
+                {
+                    "time": "2022-05-30-10:15:18",
+                    "duration": 12
+                },
+                {
+                    "time": "2022-05-30-10:16:30",
+                    "duration": 7
+                },
+                {
+                    "time": "2022-05-30-11:35:4",
+                    "duration": 12
+                },
+                {
+                    "time": "2022-05-30-11:37:56",
+                    "duration": 12
+                },
+                {
+                    "time": "2022-05-30-11:38:51",
+                    "duration": 7
+                }
+            ]
+        },
+        {
+            "deviceID": 10,
+            "events": [
+                {
+                    "time": "2022-05-30-10:21:10",
+                    "duration": 12
+                },
+                {
+                    "time": "2022-05-30-10:23:29",
+                    "duration": 7
+                },
+                {
+                    "time": "2022-05-30-10:26:0",
+                    "duration": 12
+                },
+                {
+                    "time": "2022-05-30-10:30:5",
+                    "duration": 7
+                },
+                {
+                    "time": "2022-05-30-11:42:31",
+                    "duration": 12
+                },
+                {
+                    "time": "2022-05-30-11:43:26",
+                    "duration": 7
+                }
+            ]
+        }
+    ]
+}

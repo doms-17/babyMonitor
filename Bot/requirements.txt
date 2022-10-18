@@ -1,0 +1,4 @@
+emoji==1.6.3
+paho_mqtt==1.6.1
+requests==2.25.1
+telepot==12.7
