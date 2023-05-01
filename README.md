@@ -1,6 +1,6 @@
 # MyBabyMonitor
 
-IoT Project: for comprehensive details about this project, please refer to the `relazione_final_iot.pdf` file.
+*IoT Project:* for comprehensive details about this project, please refer to the `relazione_final_iot.pdf` file.
 
 ## Getting Started
 
